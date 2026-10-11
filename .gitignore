@@ -1,0 +1,22 @@
+# Private VPN profiles and keys — never commit these files.
+*.conf
+*.vpn
+*.wg
+
+# Local Go SDK, downloaded source/build cache and generated files.
+.build-*/
+native/AmneziaBrowserVpnHost.exe
+native/com.amnezia.browser_vpn.json
+native/*.log
+
+# Go build artifacts.
+*.exe
+*.test
+*.out
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
